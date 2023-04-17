@@ -19,9 +19,9 @@ const produtosConsumidos = [
 const cliente = {
     nomeDoCliente: "Rambo",
     idadeDoCliente: 32,
-    produtosConsumidos: produtosConsumidos
+    produtosConsumidos
 };
 
 cliente.idadeDoCliente = 37
 
-console.log(cliente.produtosConsumidos[2].precoUnitario);
+console.log(cliente.produtosConsumidos[produtosConsumidos.length - 1].precoUnitario);
